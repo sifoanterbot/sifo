@@ -109,8 +109,11 @@ def uaku():
 
 
 logo = """ 
+█▀▀ ░▀░ █▀▀ █▀▀█
+▀▀█ ▀█▀ █▀▀ █░░█
+▀▀▀ ▀▀▀ ▀░░ ▀▀▀▀
 ▇◤▔▔▔▔▔▔▔◥▇
-▇▏◥▇◣┊◢▇◤▕▇
+▇▏◥▇◣┊◢▇◤▕▇    ♕sifo anterv1fb:   https://www.facebook.com/sifo.anterOfficial
 ▇▏▃▆▅▎▅▆▃▕▇
 ▇▏╱▔▕▎▔▔╲▕▇
 ▇◣◣▃▅▎▅▃◢◢▇
@@ -121,7 +124,7 @@ logo = """
 ║\33[0;41m        [ WELCOME TO MY sifo.Anter ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Chanil                       • @ziana377]║  \033[1;97m  
+╠══[Chanil                       • @sifoanter]║  \033[1;97m  
 ╠══[py:                        • @al_so_lt_an]║\33[1;35m 
 ╠══[VERSION                  • 1.0 ]          ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
@@ -205,7 +208,7 @@ def ALSOLTAN():
 				
 def m1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [ALSOLTAN] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [SIFO♡] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
